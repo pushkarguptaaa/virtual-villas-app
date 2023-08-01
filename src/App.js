@@ -5,6 +5,7 @@ import Offers from './pages/Offers'
 import SignUp from './pages/SignUp'
 import ForgotPassword from './pages/ForgotPassword'
 import Profile from './pages/Profile'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
 
       </Routes>
 
-    </Router>
+      <Navbar/>
 
-    {/* Navbar */}
+    </Router>
       
     </>
   );
